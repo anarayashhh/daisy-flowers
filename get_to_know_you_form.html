@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get to Know You</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #faf7f2;
+      color: #222;
+      padding: 40px;
+    }
+    h1 {
+      color: #e91e63;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Survey Kepo Demi Masa Depan (hehe)</h1>
+  <form action="https://formspree.io/f/mqkrqzjy" method="POST">
+    <div class="question">
+      <label>1. Status kamu sekarang?<br/>
+        <input type="radio" name="status" value="Jomblo" required> Jomblo<br/>
+        <input type="radio" name="status" value="Taken"> Taken<br/>
+        <input type="radio" name="status" value="Rahasia"> Rahasia<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>2. Kalau diajak nonton malam minggu?<br/>
+        <input type="radio" name="nonton" value="Ayo" required> Ayo<br/>
+        <input type="radio" name="nonton" value="Liat dulu"> Liat dulu<br/>
+        <input type="radio" name="nonton" value="Males ah"> Males ah<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>3. Kamu lagi deket sama orang nggak?<br/>
+        <input type="radio" name="deket" value="Lagi sih" required> Lagi sih<br/>
+        <input type="radio" name="deket" value="Nggak" > Nggak<br/>
+        <input type="radio" name="deket" value="Rahasia ah"> Rahasia ah<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>4. Kalau aku kirim ginian kamu risih nggak?<br/>
+        <input type="radio" name="risih" value="Enggak kok" required> Enggak kok<br/>
+        <input type="radio" name="risih" value="Dikit sih"> Dikit sih<br/>
+        <input type="radio" name="risih" value="Iya banget"> Iya banget<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>5. Kamu suka kejutan nggak?<br/>
+        <input type="radio" name="kejutan" value="Banget!" required> Banget!<br/>
+        <input type="radio" name="kejutan" value="Tergantung"> Tergantung<br/>
+        <input type="radio" name="kejutan" value="Enggak suka"> Enggak suka<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>6. Lagi pengen liburan ke mana?<br/>
+        <input type="text" name="liburan" required />
+      </label>
+    </div>
+
+    <div class="question">
+      <label>7. Kalau disuruh milih: tidur, makan, atau ketemu aku?<br/>
+        <input type="radio" name="milih" value="Tidur" required> Tidur<br/>
+        <input type="radio" name="milih" value="Makan"> Makan<br/>
+        <input type="radio" name="milih" value="Ketemu kamu dong"> Ketemu kamu dong<br/>
+      </label>
+    </div>
+
+    <div class="question">
+      <label>8. Pesan buat aku?<br/>
+        <textarea name="pesan" rows="3" cols="40" required></textarea>
+      </label>
+    </div>
+
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
