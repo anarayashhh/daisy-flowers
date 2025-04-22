@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Kepo Cinta</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fef8f8;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      color: #e91e63;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="submit"] {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Survey Kepo Demi Masa Depan (hehe)</h1>
+  <form onsubmit="alert('Terima kasih, jawaban kamu tersimpan di hati!'); return false;">
+    <div class="question">
+      <label>1. Status kamu sekarang?</label>
+      <input type="radio" name="status" value="Jomblo"> Jomblo<br>
+      <input type="radio" name="status" value="Taken"> Taken<br>
+      <input type="radio" name="status" value="Rahasia"> Rahasia
+    </div>
+    <div class="question">
+      <label>2. Kalau diajak nonton malam minggu?</label>
+      <input type="radio" name="nonton" value="Ayo"> Ayo<br>
+      <input type="radio" name="nonton" value="Liat dulu"> Liat dulu<br>
+      <input type="radio" name="nonton" value="Males ah"> Males ah
+    </div>
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>
